@@ -1,0 +1,16 @@
+---
+- src: geerlingguy.adminer
+- src: geerlingguy.composer
+- src: geerlingguy.firewall
+- src: geerlingguy.git
+- src: geerlingguy.memcached
+- src: geerlingguy.mysql
+- src: geerlingguy.nginx
+- src: yfix.php
+- src: yfix.security
+#- src: geerlingguy.postfix
+#- src: geerlingguy.mailhog
+#- src: geerlingguy.nodejs
+#- src: geerlingguy.solr
+#- src: geerlingguy.varnish
+#- src: arknoll.selenium
