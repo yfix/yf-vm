@@ -1,0 +1,16 @@
+---
+vagrant_box: yfix/trusty64
+vagrant_hostname: yfix-vm.dev
+vagrant_machine_name: yfix-vm
+vagrant_ip: 192.168.33.124
+vagrant_memory: 512
+vagrant_cpus: 2
+mysql_root_pswd: __put_here_db_pswd__
+mysql_db_name: __put_here_db_name__
+mysql_db_user: __put_here_db_user__
+mysql_db_pswd: __put_here_db_pswd__
+vagrant_forwarded_ports:
+  - { guest: 80, host: 12480 }
+  - { guest: 22, host: 12422 }
+vagrant_synced_folders:
+  - { local: './', remote: '/sites/default' }

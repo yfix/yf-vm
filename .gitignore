@@ -1,0 +1,34 @@
+# git ignore
+
+# Ignore files,
+*~
+*.bak
+*.back
+*.log
+*.lock
+*.cache
+*.mysql_error_log
+temp.class.php
+last_sync_time.txt
+error_log.txt
+develop*.php
+
+# ignore folders
+logs/
+cache/
+core_cache
+rss_cache
+
+.dev/override.php
+.dev/override_after.php
+.dev/override_conf_after.php
+
+.sass-cache/
+_sql/
+www/uploads/pdf/
+www/uploads/promo/
+www/uploads/site_map/
+www/stats/
+
+.vagrant
+config.yml
